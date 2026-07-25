@@ -12,7 +12,7 @@ sudo systemctl start docker
 
 # Clone project 
 if [ ! -d "my-app" ]; then
-  git clone https://github.com/example/my-app.git
+  git clone https://github.com/Mohinuddin12/My-sort-project-1.git
 fi
 
 cd my-app
@@ -21,5 +21,6 @@ cd my-app
 sudo docker-compose up --build -d
 
 echo "✅ Setup complete!"
-echo "Frontend: http://<SERVER-IP>:8080"
-echo "Backend:  http://<SERVER-IP>:5000"
+echo "Frontend: http://localhost:8080"
+echo "Backend:  http://localhost:5000"
+
